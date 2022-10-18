@@ -17,17 +17,19 @@
 
     .title{
         font-weight: bold;
-        font-size: 14px;
+        font-size: 0.7em;
         color: rgb(160, 160, 160);
     }
     
     .counter{
-        font-size: 35px;
+        font-size: 2em;
+        font-size: 2vw;
         font-weight: 300px;
     }
 
     .link{
-        font-style: 12px;
+        font-style: 0.8em;
+        font-size: 1vw;
         border-bottom: 1px solid gray;
     }
     
@@ -46,7 +48,7 @@
     }
 
     .icon{
-        font-size: 18px;
+        font-size: 1.5em;
         padding: 5px;
         border-radius: 5px;
         align-self: flex-end;

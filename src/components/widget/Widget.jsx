@@ -15,7 +15,7 @@ const Widget = ({type}) => {
         title:'CLIENT',
         isMoney: false,
         link: 'See all Client',
-        icon: <Diversity3Icon className='icon'/>
+        icon: <Diversity3Icon className='icon' style={{color: '256eff'}}/>
       };
       break;
     case "newAccount":
@@ -23,7 +23,7 @@ const Widget = ({type}) => {
         title:'NEW ACCOUNT',
         isMoney: false,
         link: 'See all New Accounts',
-        icon: <PersonAddOutlinedIcon className='icon'/>
+        icon: <PersonAddOutlinedIcon className='icon' style={{color: 'ff495c'}}/>
       };
       break;
     case "collection":
@@ -31,7 +31,7 @@ const Widget = ({type}) => {
         title:'COLLECTION',
         isMoney: true,
         link: 'See all payments',
-        icon: <LocalAtmOutlinedIcon className='icon'/>
+        icon: <LocalAtmOutlinedIcon className='icon' style={{color: '00635d'}}/>
       };
       break;
     case "nonPaying":
@@ -39,7 +39,7 @@ const Widget = ({type}) => {
         title:'NON-PAYING',
         isMoney: false,
         link: 'See all non-paying Accounts',
-        icon: <CreditCardOffOutlinedIcon className='icon'/>
+        icon: <CreditCardOffOutlinedIcon className='icon' style={{color: '772014'}}/>
       };
       break;
     default:

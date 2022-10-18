@@ -25,8 +25,8 @@
         gap: 15px;
 
         .featuredChart{
-            width: 100px;
-            height: 100px;
+            width: 125px;
+            height: 125px;
         }
         .title{
             font-weight: 100;
@@ -52,7 +52,8 @@
             text-align: center;
 
             .itemTitle{
-                font-size: 14px;
+                font-size: 0.9em;
+                font-size: 0.9vw;
                 color: gray;
             }
 
@@ -60,7 +61,8 @@
                 display: flex;
                 align-items: center;
                 margin-top: 10px;
-                font-size: 14px;
+                font-size: 0.9em;
+                font-size: 1.2vw;
 
                 &.positive{
                     color: green;
